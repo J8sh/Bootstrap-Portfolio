@@ -236,3 +236,9 @@ input[type=submit] {
   border: 0 none;
 }
 
+/********** IMG ***********/
+
+.connect-with-me-photo {
+  height: 50px;
+  width: auto;
+}
