@@ -3,14 +3,14 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background-color: #dcc7aa; /*** APPLE CORE ***/
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* general */
+/*************** general **************/
 
 .container {
   width: 100%;
@@ -50,7 +50,11 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
+/***************** header ***************/
+
+#bs-example-navbar-collapse-1 {
+  background-color: #f7882f; /*** APRICOT ***/
+}
 
 #masthead {
   position: fixed;
@@ -58,15 +62,15 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
+  color: #7d6b5c;
+  background-color: #7d6b5c;
+  border-bottom: 2px solid #7d6b5c;
 }
 
 #logo {
   float: left;
-  width: 250px;
-  height: 90px;
+  width: 400px;
+  height: 100px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
@@ -74,7 +78,7 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #6b7a8f; /*** BLUEBERRY ***/
 }
 
 nav {
@@ -95,20 +99,20 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
+/**************** footer ****************/
 
 footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #fff;
-  color: #ccc;
+  color: black;
+  color: black;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #6b7a8f; /*** BLUEBERRY ***/
+  border-top: 8px solid #f7c331; /*** CITRUS ***/
 }
 
-/* sidebar */
+/************** sidebar *****************/
 
 .sidebar {
   width: 270px;
@@ -138,7 +142,7 @@ h3,
   margin-right: 0;
 }
 
-/* main */
+/************* main *****************/
 
 #main-container {
   padding-top: 130px;
@@ -154,7 +158,7 @@ h3,
   border: 1px solid #ddd;
 }
 
-/* portfolio page */
+/************** portfolio page *************/
 
 .work {
   position: relative;
@@ -196,8 +200,12 @@ h3,
   margin-right: 25px;
 }
 
-/* contact page */
+/************ contact page *************/
 
+#contact-body {
+  background-image: url("../imgs/keyboard-background.jpg");
+  background-size: auto;
+}
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -239,6 +247,14 @@ input[type=submit] {
 /********** IMG ***********/
 
 .connect-with-me-photo {
-  height: 50px;
+  height: 60px;
   width: auto;
 }
+
+#josh-image {
+  height: 300px;
+  width: auto;
+  transform: rotate(90deg);
+  margin: 50px auto 60px auto;
+}
+
