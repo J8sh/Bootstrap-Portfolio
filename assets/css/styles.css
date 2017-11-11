@@ -99,6 +99,9 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+.navbar-right-custom {
+  margin-top: 40px;
+}
 /**************** footer ****************/
 
 footer {
